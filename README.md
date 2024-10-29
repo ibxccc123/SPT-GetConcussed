@@ -17,7 +17,7 @@ When the player gets headshot by any bullet that is blocked by armor, the concus
 
 ## **Demo**
 
-[Showcase of Concussion + Tinnitus Effects](https://streamable.com/sb4me8)
+[Showcase of Concussion + Tinnitus Effects](https://streamable.com/vard1w)
 
 ## **Issues**
 Headshots that are blocked by any type of armor, such as face shields, will trigger the concussion/tinnitus effect. 
