@@ -13,7 +13,7 @@ This mod is just a temporary fix for any users like me who have the same issue a
 Extract directly into the SPT folder.  The plugin can be located in BepInEx/plugins/.
 
 ## **Specifics**
-When the player gets hit by any bullet that is blocked by armor, the concussion and tinnitus effects are played via ActiveHealthController in the Player Class.  Concussion duration and strength varies based on how much damage was applied in the shot.  The length of the concussion effect ranges from five to nine seconds depending on how much damage was received.
+When the player gets headshot by any bullet that is blocked by armor, the concussion and tinnitus effects are played via ActiveHealthController in the Player Class.  Concussion duration and strength varies based on how much damage was applied in the shot.  The length of the concussion effect ranges from five to nine seconds depending on how much damage was received.
 
 ## **Demo**
 
