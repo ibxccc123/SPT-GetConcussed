@@ -2,7 +2,7 @@
 Adds the concussion and tinnitus effect to players when helmets receive headshots.
 
 ## **Overview**
-Headshots will trigger the concussion/tinnitus effects if the bullet is blocked by armor.  The length of the concussion effect ranges based on how much damage is received (four to eight seconds).
+Headshots will trigger the concussion/tinnitus effects if the bullet is blocked by armor.  The length of the concussion effect ranges based on how much damage is received (five to nine seconds).
 
 ## **Background**
 Currently for me and at least some other users, there may be an issue where concussion is not properly triggering off of helmet gunshot ricochets.  Concussions caused by other items such as stimulants or grenades are working normally though.  
