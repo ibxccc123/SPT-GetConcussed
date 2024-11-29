@@ -25,11 +25,11 @@ namespace GetConcussed.Patches
         [PatchPostfix]
         private static void PatchPostfix(
             Player __instance,
-            DamageInfo damageInfo,
+            DamageInfoStruct damageInfo,
             EBodyPart bodyPartType,
             EBodyPartColliderType colliderType,
             EArmorPlateCollider armorPlateCollider,
-            GStruct389 shotId)
+            ShotIdStruct shotId)
         {
             // If a player is hit by a headshot and some armor is blocking it or damage is less than 10 (I cannot for the life of me figure out why rarely helmet armor reduces the shot damage but the game doesn't keep track of it in damageInfo.BlockedBy)
             if (bodyPartType == EBodyPart.Head && (!string.IsNullOrEmpty(damageInfo.BlockedBy) || damageInfo.Damage < 10))
